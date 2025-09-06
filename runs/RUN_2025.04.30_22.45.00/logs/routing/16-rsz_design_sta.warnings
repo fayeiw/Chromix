@@ -1,0 +1,12 @@
+[WARNING GRT-0026] Missing route to pin _947_/D.
+[WARNING GRT-0026] Missing route to pin _734_/X.
+[WARNING GRT-0026] Missing route to pin _721_/B1.
+[WARNING GRT-0026] Missing route to pin _738_/A2.
+[WARNING GRT-0026] Missing route to pin _721_/A1.
+[WARNING GRT-0026] Missing route to pin _721_/A2.
+[WARNING GRT-0026] Missing route to pin _721_/Y.
+[WARNING GRT-0026] Missing route to pin _734_/A2.
+[WARNING GRT-0026] Missing route to pin _947_/CLK.
+Warning: There are 6 unclocked register/latch pins.
+Warning: There are 6 unconstrained endpoints.
+[WARNING] Did not save OpenROAD database!

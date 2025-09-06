@@ -1,0 +1,19 @@
+Design Name: rgb_mixer
+Run Directory: /openlane/designs/rgb_mixer/runs/RUN_2025.04.30_22.45.00
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/rgb_mixer/runs/RUN_2025.04.30_22.45.00/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/rgb_mixer/runs/RUN_2025.04.30_22.45.00/logs/signoff/39-rgb_mixer.lef.lvs.log
+Number of nets: 658                        |Number of nets: 658                        
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/rgb_mixer/runs/RUN_2025.04.30_22.45.00/logs/signoff/41-arc.log
+Pin violations: 0
+Net violations: 0

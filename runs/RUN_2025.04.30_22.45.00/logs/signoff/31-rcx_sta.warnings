@@ -1,0 +1,7 @@
+Warning: /openlane/designs/rgb_mixer/runs/RUN_2025.04.30_22.45.00/results/routing/rgb_mixer.nl.v line 2571, module sky130_fd_sc_hd__tapvpwrvgnd_1 not found. Creating black box for TAP_76.
+Warning: /openlane/designs/rgb_mixer/runs/RUN_2025.04.30_22.45.00/results/routing/rgb_mixer.nl.v line 2921, module sky130_ef_sc_hd__decap_12 not found. Creating black box for FILLER_0_0_6.
+Warning: /openlane/designs/rgb_mixer/runs/RUN_2025.04.30_22.45.00/results/routing/rgb_mixer.nl.v line 2923, module sky130_fd_sc_hd__fill_2 not found. Creating black box for FILLER_0_0_26.
+Warning: /openlane/designs/rgb_mixer/runs/RUN_2025.04.30_22.45.00/results/routing/rgb_mixer.nl.v line 2932, module sky130_fd_sc_hd__fill_1 not found. Creating black box for FILLER_0_0_111.
+Warning: There are 6 unclocked register/latch pins.
+Warning: There are 6 unconstrained endpoints.
+[WARNING] Did not save OpenROAD database!

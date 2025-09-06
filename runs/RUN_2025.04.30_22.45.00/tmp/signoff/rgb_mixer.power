@@ -1,0 +1,11 @@
+VPWR power 1.8
+VGND power 0.0
+#define std_input min@VGND max@VPWR
+clk input std_input
+enc0_a input std_input
+enc0_b input std_input
+enc1_a input std_input
+enc1_b input std_input
+enc2_a input std_input
+enc2_b input std_input
+reset input std_input

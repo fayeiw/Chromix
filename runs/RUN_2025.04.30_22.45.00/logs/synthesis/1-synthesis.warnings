@@ -1,0 +1,5 @@
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+Warning: Wire rgb_mixer.\pwm2_out is used but has no driver.
+Warning: Wire rgb_mixer.\pwm1_out is used but has no driver.
+Warning: Wire rgb_mixer.\pwm0_out is used but has no driver.
+Warnings: 3 unique messages, 3 total

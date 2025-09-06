@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 23408 25552
+string GDS_END 1711486
+string GDS_FILE /openlane/designs/rgb_mixer/runs/RUN_2025.04.30_22.45.00/results/signoff/rgb_mixer.magic.gds
+string GDS_START 312344
+<< end >>

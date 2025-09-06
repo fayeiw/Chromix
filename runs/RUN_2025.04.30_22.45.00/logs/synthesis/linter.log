@@ -1,0 +1,30 @@
+%Warning-WIDTHEXPAND: /openlane/designs/rgb_mixer/src/debounce.v:30:24: Operator EQ expects 9 bits on the LHS, but LHS's VARREF 'state' generates 8 bits.
+                                                                      : ... In instance rgb_mixer.d6
+   30 |         else if (state == 9'b00000000)
+      |                        ^~
+                      ... For warning description see https://verilator.org/warn/WIDTHEXPAND?v=5.009
+                      ... Use "/* verilator lint_off WIDTHEXPAND */" and lint_on around source to disable this message.
+%Warning-LATCH: /openlane/designs/rgb_mixer/src/debounce.v:24:5: Latch inferred for signal 'rgb_mixer.o0_a' (not all control paths of combinational always assign a value)
+                                                               : ... Suggest use of always_latch for intentional latches
+   24 |     always@(*)
+      |     ^~~~~~
+%Warning-LATCH: /openlane/designs/rgb_mixer/src/debounce.v:24:5: Latch inferred for signal 'rgb_mixer.o0_b' (not all control paths of combinational always assign a value)
+                                                               : ... Suggest use of always_latch for intentional latches
+   24 |     always@(*)
+      |     ^~~~~~
+%Warning-LATCH: /openlane/designs/rgb_mixer/src/debounce.v:24:5: Latch inferred for signal 'rgb_mixer.o1_a' (not all control paths of combinational always assign a value)
+                                                               : ... Suggest use of always_latch for intentional latches
+   24 |     always@(*)
+      |     ^~~~~~
+%Warning-LATCH: /openlane/designs/rgb_mixer/src/debounce.v:24:5: Latch inferred for signal 'rgb_mixer.o1_b' (not all control paths of combinational always assign a value)
+                                                               : ... Suggest use of always_latch for intentional latches
+   24 |     always@(*)
+      |     ^~~~~~
+%Warning-LATCH: /openlane/designs/rgb_mixer/src/debounce.v:24:5: Latch inferred for signal 'rgb_mixer.o2_a' (not all control paths of combinational always assign a value)
+                                                               : ... Suggest use of always_latch for intentional latches
+   24 |     always@(*)
+      |     ^~~~~~
+%Warning-LATCH: /openlane/designs/rgb_mixer/src/debounce.v:24:5: Latch inferred for signal 'rgb_mixer.o2_b' (not all control paths of combinational always assign a value)
+                                                               : ... Suggest use of always_latch for intentional latches
+   24 |     always@(*)
+      |     ^~~~~~

@@ -1,0 +1,209 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO rgb_mixer
+  CLASS BLOCK ;
+  FOREIGN rgb_mixer ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 117.040 BY 127.760 ;
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 21.245 10.640 22.845 114.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 47.695 10.640 49.295 114.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 74.145 10.640 75.745 114.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 100.595 10.640 102.195 114.480 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 26.300 111.560 27.900 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 52.140 111.560 53.740 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 77.980 111.560 79.580 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 103.820 111.560 105.420 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 17.945 10.640 19.545 114.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 44.395 10.640 45.995 114.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 70.845 10.640 72.445 114.480 ;
+    END
+    PORT
+      LAYER met4 ;
+        RECT 97.295 10.640 98.895 114.480 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 23.000 111.560 24.600 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 48.840 111.560 50.440 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 74.680 111.560 76.280 ;
+    END
+    PORT
+      LAYER met5 ;
+        RECT 5.280 100.520 111.560 102.120 ;
+    END
+  END VPWR
+  PIN clk
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.852000 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 91.840 4.000 92.440 ;
+    END
+  END clk
+  PIN enc0_a
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met3 ;
+        RECT 113.040 10.240 117.040 10.840 ;
+    END
+  END enc0_a
+  PIN enc0_b
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met2 ;
+        RECT 0.090 0.000 0.370 4.000 ;
+    END
+  END enc0_b
+  PIN enc1_a
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met2 ;
+        RECT 96.690 123.760 96.970 127.760 ;
+    END
+  END enc1_a
+  PIN enc1_b
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met2 ;
+        RECT 87.030 0.000 87.310 4.000 ;
+    END
+  END enc1_b
+  PIN enc2_a
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 44.240 4.000 44.840 ;
+    END
+  END enc2_a
+  PIN enc2_b
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met3 ;
+        RECT 113.040 105.440 117.040 106.040 ;
+    END
+  END enc2_b
+  PIN pwm0_out
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.795200 ;
+    PORT
+      LAYER met2 ;
+        RECT 41.950 0.000 42.230 4.000 ;
+    END
+  END pwm0_out
+  PIN pwm1_out
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.795200 ;
+    PORT
+      LAYER met2 ;
+        RECT 6.530 123.760 6.810 127.760 ;
+    END
+  END pwm1_out
+  PIN pwm2_out
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 0.445500 ;
+    PORT
+      LAYER met2 ;
+        RECT 51.610 123.760 51.890 127.760 ;
+    END
+  END pwm2_out
+  PIN reset
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.196500 ;
+    PORT
+      LAYER met3 ;
+        RECT 113.040 57.840 117.040 58.440 ;
+    END
+  END reset
+  OBS
+      LAYER li1 ;
+        RECT 5.520 10.795 111.320 114.325 ;
+      LAYER met1 ;
+        RECT 0.070 10.640 111.320 114.480 ;
+      LAYER met2 ;
+        RECT 0.100 123.480 6.250 123.760 ;
+        RECT 7.090 123.480 51.330 123.760 ;
+        RECT 52.170 123.480 96.410 123.760 ;
+        RECT 97.250 123.480 111.230 123.760 ;
+        RECT 0.100 4.280 111.230 123.480 ;
+        RECT 0.650 3.670 41.670 4.280 ;
+        RECT 42.510 3.670 86.750 4.280 ;
+        RECT 87.590 3.670 111.230 4.280 ;
+      LAYER met3 ;
+        RECT 4.000 106.440 113.040 114.405 ;
+        RECT 4.000 105.040 112.640 106.440 ;
+        RECT 4.000 92.840 113.040 105.040 ;
+        RECT 4.400 91.440 113.040 92.840 ;
+        RECT 4.000 58.840 113.040 91.440 ;
+        RECT 4.000 57.440 112.640 58.840 ;
+        RECT 4.000 45.240 113.040 57.440 ;
+        RECT 4.400 43.840 113.040 45.240 ;
+        RECT 4.000 11.240 113.040 43.840 ;
+        RECT 4.000 10.375 112.640 11.240 ;
+  END
+END rgb_mixer
+END LIBRARY
+
